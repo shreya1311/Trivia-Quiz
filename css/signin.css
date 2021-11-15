@@ -1,0 +1,89 @@
+body {
+}
+.content-signin {
+  background-color: #f2f4f6;
+
+  width: 50%;
+  border-radius: 2%;
+  margin: 8% 25%;
+  padding-right: 3%;
+}
+
+.h2-style {
+  padding-top: 3%;
+  text-align: center;
+}
+.h6-style {
+  padding-bottom: 5%;
+  text-align: center;
+}
+.input-style {
+  width: 65%;
+  margin-left: 20%;
+}
+.check-style {
+  position: relative;
+  top: 0;
+  left: 45%;
+}
+.label-style {
+  margin-left: 45%;
+}
+.forgot-style {
+  margin-left: 36%;
+}
+.pas-style {
+  text-decoration: none;
+}
+.button-style {
+  width: 65%;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+.acc-style {
+  margin-top: 2%;
+  margin-left: 35%;
+}
+.signup-style {
+  text-decoration: none;
+  margin-left: 2%;
+}
+.signwith-style {
+  margin-top: 3%;
+  margin-left: 45%;
+}
+.fontaws-style {
+  margin-left: 42%;
+  margin-bottom: 4%;
+}
+/********************************RESPONSIVE**********************************/
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #f2f4f6;
+  }
+  .content-signin {
+    margin-left: 0%;
+    width: 100%;
+  }
+  .check-style {
+    position: relative;
+    top: 0;
+    left: 23%;
+  }
+  .label-style {
+    margin-left: 23%;
+  }
+  .forgot-style {
+    margin-top: 1%;
+    margin-left: 22%;
+  }
+  .acc-style {
+    margin-left: 25%;
+  }
+  .signwith-style {
+    margin-left: 40%;
+  }
+  .fontaws-style {
+    margin-left: 35%;
+  }
+}

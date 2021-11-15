@@ -1,0 +1,48 @@
+/******************************** SIDE NAVBAR********************************/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #222e3c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 2%;
+}
+.navsyb-style {
+  font-size: 2.125rem;
+}
+.sidenav a {
+  padding: 5% 5%;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #f2f4f6;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav .i-style-head {
+  font-size: 2.125rem;
+  padding: 2%;
+}
+.sidenav .span-style-head {
+  font-size: 2.125rem;
+}
+.sidenav .i-style {
+  padding: 2%;
+}
+.sidenav a:hover {
+  color: #818181;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 2rem;
+}
+.sidenav .openbtn {
+  cursor: pointer;
+}
+
+/********************************NAVBAR***********************/
