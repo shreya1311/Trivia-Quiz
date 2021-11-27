@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  padding: 0.4rem;
+  color: #0000008c;
+}
+.btn-style:hover {
+  color: white;
+  background-color: grey;
+  border: 2px solid black;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.5rem;
+  margin-top: 8rem;
+}
+h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.3rem;
+}
+input[type="email"] {
+  width: 100%;
+  width: 28rem;
+  height: 2.5rem;
+  border: 1.6px solid black;
+  border-radius: 0.3rem;
+}
+.container-style {
+  padding: 3% 10% 0% 10%;
+}
+.content-style {
+  padding: 0 10%;
+}
+.btn-style {
+  margin-top: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0.5rem 0.7rem;
+}
